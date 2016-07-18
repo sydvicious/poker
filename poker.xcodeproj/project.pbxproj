@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		62C3935911388D0600C2776F /* poker.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = poker.tcl; sourceTree = "<group>"; };
+		62C3935C1138913500C2776F /* library.tcl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = library.tcl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		62C3934E11388CDF00C2776F = {
+			isa = PBXGroup;
+			children = (
+				62C3935C1138913500C2776F /* library.tcl */,
+				62C3935911388D0600C2776F /* poker.tcl */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		62C3935011388CDF00C2776F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 62C3935311388CDF00C2776F /* Build configuration list for PBXProject "poker" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 62C3934E11388CDF00C2776F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		62C3935111388CDF00C2776F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		62C3935211388CDF00C2776F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62C3935311388CDF00C2776F /* Build configuration list for PBXProject "poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C3935111388CDF00C2776F /* Debug */,
+				62C3935211388CDF00C2776F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62C3935011388CDF00C2776F /* Project object */;
+}
